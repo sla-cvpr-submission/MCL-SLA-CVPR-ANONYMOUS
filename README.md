@@ -1,4 +1,4 @@
-# Source Label Adaptation - MCL
+# Source Label Adaptation - MCL + SLA
 CVPR 2023 SUBMISSION - Semi-Supervised Domain Adaptation with Source Label Adaptation
 
 This code reproduces MCL and MCL + SLA.
