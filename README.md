@@ -21,4 +21,9 @@ python train_mcl.py --method LC --alpha 0.3 --ppc_T 0.6 --update_interval 500 --
 ## Acknowledgement
 This code is almost the same as [the original one](https://github.com/chester256/MCL).
 
-We only fix the `work_init_fn` and `generator` in the dataloader, and apply our SLA to it.
+We only do the following changes:
+
+1. Fix `work_init_fn` and `generator` in the dataloader.
+2. Apply SLA framework to it.
+3. Start early-stopping after a certain interval
+4. add mdh - model handler to help log the experimental results.
